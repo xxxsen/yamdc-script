@@ -18,8 +18,13 @@ plugins:
             },
             {
                 Name: "format number like '234abc-123' to 'abc-123'",
-                Rule: regexp.MustCompile("^\\d+([a-zA-Z]+[-|_]\\d+)([-|_].*)?$"),
+                Rule: regexp.MustCompile("^\\d{3,5}([a-zA-Z]+[-|_]\\d+)([-|_].*)?$"),
                 Rewrite: "$1$2",
+            },
+            {
+                Name: "rewrite 1pon or carib",
+                Rule: regexp.MustCompile("(?i)(1pondo|1pon|carib)[-|_]?(.*)"),
+                Rewrite: "$2",
             },
         }
     function: |
