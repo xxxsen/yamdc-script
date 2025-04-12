@@ -1,5 +1,5 @@
 plugins:
-  - name: basci_categorier
+  - name: basic_categorier
     define: |
         cats := map[string][]*regexp.Regexp{
             "FC2": []*regexp.Regexp{
