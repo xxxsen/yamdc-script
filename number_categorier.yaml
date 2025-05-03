@@ -8,6 +8,9 @@ plugins:
             "JVR": []*regexp.Regexp{
                 regexp.MustCompile("(?i)^JVR.*$"),
             },
+            "COSPURI": []*regexp.Regexp{
+                regexp.MustCompile("(?i)^COSPURI.*$"),
+            },
         }
     function: |
         func(ctx context.Context, number string) (string, bool, error) {
