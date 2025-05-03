@@ -30,6 +30,7 @@ plugins:
             regexp.MustCompile("(?i)^MXX[-|_].*$"),
             regexp.MustCompile("(?i)^DSAM[-|_].*$"),
             regexp.MustCompile("(?i)^JVR[-|_].*$"),
+            regexp.MustCompile("(?i)COSPURI[-|_].*$"),
         }     
     function: |
         func(ctx context.Context, number string) (bool, error) {
