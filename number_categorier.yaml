@@ -11,6 +11,9 @@ plugins:
             "COSPURI": []*regexp.Regexp{
                 regexp.MustCompile("(?i)^COSPURI.*$"),
             },
+            "MD": []*regexp.Regexp{
+                regexp.MustCompile("(?i)^MDQ[-|_].*$"),
+            },
         }
     function: |
         func(ctx context.Context, number string) (string, bool, error) {
