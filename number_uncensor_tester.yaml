@@ -31,6 +31,7 @@ plugins:
             regexp.MustCompile("(?i)^DSAM[-|_].*$"),
             regexp.MustCompile("(?i)^JVR[-|_].*$"),
             regexp.MustCompile("(?i)COSPURI[-|_].*$"),
+            regexp.MustCompile("(?i)MDQ[-|_].*$"),
         }     
     function: |
         func(ctx context.Context, number string) (bool, error) {
