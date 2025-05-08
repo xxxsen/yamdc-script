@@ -12,7 +12,7 @@ plugins:
                 regexp.MustCompile("(?i)^COSPURI.*$"),
             },
             "MD": []*regexp.Regexp{
-                regexp.MustCompile("(?i)^MDQ[-|_].*$"),
+                regexp.MustCompile("(?i)^MADOU[-|_].*$"),
             },
         }
     function: |
