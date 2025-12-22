@@ -16,6 +16,9 @@ cats := map[string][]*regexp.Regexp{
     "MD": []*regexp.Regexp{
         regexp.MustCompile("(?i)^MADOU[-|_].*$"),
     },
+    "MANYVIDS": []*regexp.Regexp {
+        regexp.MustCompile("(?i)^MANYVIDS[-|_].*$"),
+    },
 }
 """
 function = """
