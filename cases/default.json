@@ -1,0 +1,177 @@
+{
+  "cases": [
+    {
+      "name": "fc2_with_chinese_suffix",
+      "input": "[JAV] fc2ppv12345 中文字幕.mp4",
+      "output": {
+        "number": "FC2-PPV-12345",
+        "uncensor": true,
+        "category": "FC2",
+        "status": "success",
+        "suffix-set": ["C"]
+      }
+    },
+    {
+      "name": "carib_with_4k_suffix",
+      "input": "carib-010123-001 4k.mkv",
+      "output": {
+        "number": "010123-001",
+        "uncensor": true,
+        "status": "success",
+        "suffix-set": ["4K"]
+      }
+    },
+    {
+      "name": "generic_cd2",
+      "input": "abc123 cd2.avi",
+      "output": {
+        "number": "ABC-123",
+        "uncensor": false,
+        "status": "success",
+        "suffix-set": ["CD2"]
+      }
+    },
+    {
+      "name": "heyzo_leak",
+      "input": "heyzo_1234 leak.mp4",
+      "output": {
+        "number": "HEYZO-1234",
+        "uncensor": true,
+        "status": "success",
+        "suffix-set": ["LEAK"]
+      }
+    },
+    {
+      "name": "heyzo_with_domain_prefix",
+      "input": "www.baidu.com HEYZO-0001.mp4",
+      "output": {
+        "number": "HEYZO-0001",
+        "uncensor": true,
+        "status": "success"
+      }
+    },
+    {
+      "name": "heyzo_with_domain_and_at",
+      "input": "8000abc.com@HEYZO-0055.mp4",
+      "output": {
+        "number": "HEYZO-0055",
+        "uncensor": true,
+        "status": "success"
+      }
+    },
+    {
+      "name": "onepondo_with_suffix",
+      "input": "1pondo-011516_227-C",
+      "output": {
+        "number": "011516_227",
+        "uncensor": true,
+        "status": "success",
+        "suffix-set": ["C"]
+      }
+    },
+    {
+      "name": "onepondo_uncensor_plain",
+      "input": "011516_227",
+      "output": {
+        "number": "011516_227",
+        "uncensor": true,
+        "status": "success"
+      }
+    },
+    {
+      "name": "fc2_multi_suffix",
+      "input": "fc2ppv12345 中文字幕 cd1.mp4",
+      "output": {
+        "number": "FC2-PPV-12345",
+        "uncensor": true,
+        "category": "FC2",
+        "status": "success",
+        "suffix-set": ["C", "CD1"]
+      }
+    },
+    {
+      "name": "jvr_category",
+      "input": "jvr12345.mp4",
+      "output": {
+        "number": "JVR-12345",
+        "uncensor": true,
+        "category": "JVR",
+        "status": "success"
+      }
+    },
+    {
+      "name": "manyvids_category",
+      "input": "manyvids12345.mp4",
+      "output": {
+        "number": "MANYVIDS-12345",
+        "uncensor": true,
+        "category": "MANYVIDS",
+        "status": "success"
+      }
+    },
+    {
+      "name": "uncensor_n_code",
+      "input": "N1234.mp4",
+      "output": {
+        "number": "N1234",
+        "uncensor": true,
+        "status": "success"
+      }
+    },
+    {
+      "name": "cospuri_category_v1",
+      "input": "COSPURI-Emiri-Momota-0548",
+      "output": {
+        "number": "COSPURI-EMIRI-MOMOTA-0548",
+        "uncensor": true,
+        "category": "COSPURI",
+        "status": "success"
+      }
+    },
+    {
+      "name": "cospuri_category_v2",
+      "input": "COSPURI-123456",
+      "output": {
+        "number": "COSPURI-123456",
+        "uncensor": true,
+        "category": "COSPURI",
+        "status": "success"
+      }
+    },
+    {
+      "name": "madou_category",
+      "input": "MADOU_aaaa",
+      "output": {
+        "number": "MADOU-AAAA",
+        "uncensor": true,
+        "category": "MD",
+        "status": "success"
+      }
+    },
+    {
+      "name": "uncensor_negative_ymds",
+      "input": "YMDS-164",
+      "output": {
+        "number": "YMDS-164",
+        "uncensor": false,
+        "status": "success"
+      }
+    },
+    {
+      "name": "uncensor_negative_luke",
+      "input": "LUKE-036",
+      "output": {
+        "number": "LUKE-036",
+        "uncensor": false,
+        "status": "success"
+      }
+    },
+    {
+      "name": "no_match_noise",
+      "input": "pure-noise-file-name",
+      "output": {
+        "status": "no_match"
+      }
+    }
+  ]
+}
