@@ -37,4 +37,3 @@ yamdc ruleset-test --ruleset=./ --casefile=./cases --output=json
 YAMDC_BIN=/path/to/yamdc bash ./scripts/run_ruleset_test.sh
 ```
 
-**NOTE: 由于是解释执行 golang，能做的事情很多，所以应尽量避免使用第三方脚本；如果一定要使用，建议在 docker 中执行。**
