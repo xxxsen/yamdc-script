@@ -48,6 +48,42 @@ matchers:
     pattern: '(?i)\b([0-9]{4,6})-([0-9]{2,3})\b'
     normalize_template: '$1-$2'
     score: 88
+  - name: skej_prefixed
+    pattern: '(?i)\b([0-9]{3})(SKEJ)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1$2-$3'
+    score: 92
+  - name: erkr_prefixed
+    pattern: '(?i)\b([0-9]{3})(ERKR)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1$2-$3'
+    score: 92
+  - name: httm_prefixed
+    pattern: '(?i)\b([0-9]{3})(HTTM)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1$2-$3'
+    score: 92
+  - name: mgs_gana
+    pattern: '(?i)\b(200GANA)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1-$2'
+    score: 92
+  - name: mgs_mium
+    pattern: '(?i)\b(300MIUM)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1-$2'
+    score: 92
+  - name: maan
+    pattern: '(?i)\b(MAAN)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1-$2'
+    score: 90
+  - name: hodv
+    pattern: '(?i)\b(HODV)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1-$2'
+    score: 90
+  - name: pfes
+    pattern: '(?i)\b(PFES)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1-$2'
+    score: 90
+  - name: siro
+    pattern: '(?i)\b(SIRO)[-_\s]?([0-9]{2,6})\b'
+    normalize_template: '$1-$2'
+    score: 90
   - name: jvr
     category: JVR
     uncensor: true

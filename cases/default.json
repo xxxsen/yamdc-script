@@ -8,7 +8,9 @@
         "uncensor": true,
         "category": "FC2",
         "status": "success",
-        "suffix-set": ["C"]
+        "suffix-set": [
+          "C"
+        ]
       }
     },
     {
@@ -18,7 +20,9 @@
         "number": "010123-001",
         "uncensor": true,
         "status": "success",
-        "suffix-set": ["4K"]
+        "suffix-set": [
+          "4K"
+        ]
       }
     },
     {
@@ -28,7 +32,9 @@
         "number": "ABC-123",
         "uncensor": false,
         "status": "success",
-        "suffix-set": ["CD2"]
+        "suffix-set": [
+          "CD2"
+        ]
       }
     },
     {
@@ -38,7 +44,9 @@
         "number": "HEYZO-1234",
         "uncensor": true,
         "status": "success",
-        "suffix-set": ["LEAK"]
+        "suffix-set": [
+          "LEAK"
+        ]
       }
     },
     {
@@ -66,7 +74,9 @@
         "number": "011516_227",
         "uncensor": true,
         "status": "success",
-        "suffix-set": ["C"]
+        "suffix-set": [
+          "C"
+        ]
       }
     },
     {
@@ -86,7 +96,10 @@
         "uncensor": true,
         "category": "FC2",
         "status": "success",
-        "suffix-set": ["C", "CD1"]
+        "suffix-set": [
+          "C",
+          "CD1"
+        ]
       }
     },
     {
@@ -171,6 +184,78 @@
       "input": "pure-noise-file-name",
       "output": {
         "status": "no_match"
+      }
+    },
+    {
+      "name": "skej_prefixed",
+      "input": "801SKEJ-064",
+      "output": {
+        "number": "801SKEJ-064",
+        "status": "success"
+      }
+    },
+    {
+      "name": "erkr_prefixed",
+      "input": "583ERKR-1106",
+      "output": {
+        "number": "583ERKR-1106",
+        "status": "success"
+      }
+    },
+    {
+      "name": "httm_prefixed",
+      "input": "867HTTM-0048",
+      "output": {
+        "number": "867HTTM-0048",
+        "status": "success"
+      }
+    },
+    {
+      "name": "mgs_gana",
+      "input": "200GANA-3354",
+      "output": {
+        "number": "200GANA-3354",
+        "status": "success"
+      }
+    },
+    {
+      "name": "mgs_mium",
+      "input": "300MIUM-1344",
+      "output": {
+        "number": "300MIUM-1344",
+        "status": "success"
+      }
+    },
+    {
+      "name": "maan_generic_promoted",
+      "input": "MAAN-1156",
+      "output": {
+        "number": "MAAN-1156",
+        "status": "success"
+      }
+    },
+    {
+      "name": "hodv_generic_promoted",
+      "input": "HODV-22052",
+      "output": {
+        "number": "HODV-22052",
+        "status": "success"
+      }
+    },
+    {
+      "name": "pfes_generic_promoted",
+      "input": "PFES-124",
+      "output": {
+        "number": "PFES-124",
+        "status": "success"
+      }
+    },
+    {
+      "name": "siro_generic_promoted",
+      "input": "SIRO-5606",
+      "output": {
+        "number": "SIRO-5606",
+        "status": "success"
       }
     }
   ]
