@@ -71,7 +71,7 @@
       "name": "onepondo_with_suffix",
       "input": "1pondo-011516_227-C",
       "output": {
-        "number": "011516_227",
+        "number": "011516-227",
         "unrated": true,
         "status": "success",
         "suffix-set": [
@@ -83,7 +83,7 @@
       "name": "onepondo_unrated_plain",
       "input": "011516_227",
       "output": {
-        "number": "011516_227",
+        "number": "011516-227",
         "unrated": true,
         "status": "success"
       }
