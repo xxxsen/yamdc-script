@@ -12,7 +12,7 @@
 # - rewrite_rules: 做定向正则改写，例如 FC2 规整、1PON/CARIB 前缀剥离
 # - suffix_rules: 提取字幕/CD/4K/VR/LEAK 等后缀，并暂存到结果中
 # - noise_rules: 去掉域名、站点标签、编码标签等噪声
-# - matchers: 匹配主番号，并给出 category / uncensor 等派生属性
+# - matchers: 匹配主番号，并给出 category / unrated 等派生属性
 # - post_processors: 将主番号与后缀重新拼回最终规范结果
 
 version: v1
