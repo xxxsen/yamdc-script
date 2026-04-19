@@ -5,7 +5,7 @@
       "input": "[JAV] fc2ppv12345 中文字幕.mp4",
       "output": {
         "number": "FC2-PPV-12345",
-        "uncensor": true,
+        "unrated": true,
         "category": "FC2",
         "status": "success",
         "suffix-set": [
@@ -18,7 +18,7 @@
       "input": "carib-010123-001 4k.mkv",
       "output": {
         "number": "010123-001",
-        "uncensor": true,
+        "unrated": true,
         "status": "success",
         "suffix-set": [
           "4K"
@@ -30,7 +30,7 @@
       "input": "abc123 cd2.avi",
       "output": {
         "number": "ABC-123",
-        "uncensor": false,
+        "unrated": false,
         "status": "success",
         "suffix-set": [
           "CD2"
@@ -38,11 +38,11 @@
       }
     },
     {
-      "name": "heyzo_leak",
+      "name": "heyzo_special_edition",
       "input": "heyzo_1234 leak.mp4",
       "output": {
         "number": "HEYZO-1234",
-        "uncensor": true,
+        "unrated": true,
         "status": "success",
         "suffix-set": [
           "LEAK"
@@ -54,7 +54,7 @@
       "input": "www.baidu.com HEYZO-0001.mp4",
       "output": {
         "number": "HEYZO-0001",
-        "uncensor": true,
+        "unrated": true,
         "status": "success"
       }
     },
@@ -63,7 +63,7 @@
       "input": "8000abc.com@HEYZO-0055.mp4",
       "output": {
         "number": "HEYZO-0055",
-        "uncensor": true,
+        "unrated": true,
         "status": "success"
       }
     },
@@ -72,7 +72,7 @@
       "input": "1pondo-011516_227-C",
       "output": {
         "number": "011516_227",
-        "uncensor": true,
+        "unrated": true,
         "status": "success",
         "suffix-set": [
           "C"
@@ -80,11 +80,11 @@
       }
     },
     {
-      "name": "onepondo_uncensor_plain",
+      "name": "onepondo_unrated_plain",
       "input": "011516_227",
       "output": {
         "number": "011516_227",
-        "uncensor": true,
+        "unrated": true,
         "status": "success"
       }
     },
@@ -93,7 +93,7 @@
       "input": "fc2ppv12345 中文字幕 cd1.mp4",
       "output": {
         "number": "FC2-PPV-12345",
-        "uncensor": true,
+        "unrated": true,
         "category": "FC2",
         "status": "success",
         "suffix-set": [
@@ -107,7 +107,7 @@
       "input": "jvr12345.mp4",
       "output": {
         "number": "JVR-12345",
-        "uncensor": true,
+        "unrated": true,
         "category": "JVR",
         "status": "success"
       }
@@ -117,17 +117,17 @@
       "input": "manyvids12345.mp4",
       "output": {
         "number": "MANYVIDS-12345",
-        "uncensor": true,
+        "unrated": true,
         "category": "MANYVIDS",
         "status": "success"
       }
     },
     {
-      "name": "uncensor_n_code",
+      "name": "unrated_n_code",
       "input": "N1234.mp4",
       "output": {
         "number": "N1234",
-        "uncensor": true,
+        "unrated": true,
         "status": "success"
       }
     },
@@ -136,7 +136,7 @@
       "input": "COSPURI-Emiri-Momota-0548",
       "output": {
         "number": "COSPURI-EMIRI-MOMOTA-0548",
-        "uncensor": true,
+        "unrated": true,
         "category": "COSPURI",
         "status": "success"
       }
@@ -146,7 +146,7 @@
       "input": "COSPURI-123456",
       "output": {
         "number": "COSPURI-123456",
-        "uncensor": true,
+        "unrated": true,
         "category": "COSPURI",
         "status": "success"
       }
@@ -156,26 +156,26 @@
       "input": "MADOU_aaaa",
       "output": {
         "number": "MADOU-AAAA",
-        "uncensor": true,
+        "unrated": true,
         "category": "MD",
         "status": "success"
       }
     },
     {
-      "name": "uncensor_negative_ymds",
+      "name": "unrated_negative_ymds",
       "input": "YMDS-164",
       "output": {
         "number": "YMDS-164",
-        "uncensor": false,
+        "unrated": false,
         "status": "success"
       }
     },
     {
-      "name": "uncensor_negative_luke",
+      "name": "unrated_negative_luke",
       "input": "LUKE-036",
       "output": {
         "number": "LUKE-036",
-        "uncensor": false,
+        "unrated": false,
         "status": "success"
       }
     },

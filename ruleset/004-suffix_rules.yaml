@@ -31,12 +31,12 @@ suffix_rules:
     pattern: '(?i)(?:^|[\s\[\]\(\)_-])VR(?:$|[\s\[\]\(\)_-])'
     canonical: "VR"
     priority: 60
-  - name: suffix_leak
+  - name: suffix_special_edition
     type: regex
     pattern: '(?i)(?:^|[\s\[\]\(\)_-])LEAK(?:$|[\s\[\]\(\)_-])'
     canonical: "LEAK"
     priority: 50
-  - name: suffix_hack
+  - name: suffix_restored
     type: regex
     pattern: '(?i)(?:^|[\s\[\]\(\)_-])(?:UC|U)(?:$|[\s\[\]\(\)_-])'
     canonical: "UC"
