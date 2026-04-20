@@ -16,6 +16,19 @@ suffix_rules:
     pattern: '(?i)(?:^|[\s\[\]\(\)_-])CD([0-9]+)(?:$|[\s\[\]\(\)_-])'
     canonical_template: 'CD$1'
     priority: 10
+  # part_index: 把 "PART<N>" 归一为 "CD<N>" 变体。
+  # 起因: 某些片源会用 "XXX.PART1_8K.mp4" / "XXX_PART2.mp4" 这种多段标记。
+  # 如果不在 suffix 阶段摘掉, 后续 noise_rules 的 domain_tags
+  # ( `\b(?:[A-Z0-9-]+\.)+[A-Z0-9-]+\b` ) 会把 "PXVR-406.PART1" 当成域名一并
+  # 抹掉, 导致主番号丢失 / no_match (参见 cases 中 pxvr_dot_part_8k)。
+  # 分隔符集合里补了 "." 就是为了吃掉前置的点, 让剩余字符串回到干净的主番号。
+  # canonical 产物直接复用 CD<N>, 与手动输入的 CD1/CD2 / 现有 cd_index
+  # 规则保持同一形态, 拼回时走同一条 post_processors 路径。
+  - name: part_index
+    type: regex
+    pattern: '(?i)(?:^|[\s\[\]\(\)_.-])PART([0-9]+)(?:$|[\s\[\]\(\)_.-])'
+    canonical_template: 'CD$1'
+    priority: 10
   - name: suffix_4k
     type: regex
     pattern: '(?i)(?:^|[\s\[\]\(\)_-])(?:4K|2160P)(?:$|[\s\[\]\(\)_-])'

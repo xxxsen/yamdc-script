@@ -257,6 +257,41 @@
         "number": "SIRO-5606",
         "status": "success"
       }
+    },
+    {
+      "name": "pxvr_dot_part_8k",
+      "input": "489155.com@PXVR-406.PART1_8K.mp4",
+      "output": {
+        "number": "PXVR-406",
+        "status": "success",
+        "suffix-set": [
+          "8K",
+          "CD1"
+        ]
+      }
+    },
+    {
+      "name": "pxvr_dot_part2_8k",
+      "input": "489155.com@PXVR-406.PART2_8K.mp4",
+      "output": {
+        "number": "PXVR-406",
+        "status": "success",
+        "suffix-set": [
+          "8K",
+          "CD2"
+        ]
+      }
+    },
+    {
+      "name": "generic_underscore_part",
+      "input": "abc-123_part3.mp4",
+      "output": {
+        "number": "ABC-123",
+        "status": "success",
+        "suffix-set": [
+          "CD3"
+        ]
+      }
     }
   ]
 }
